@@ -1,41 +1,13 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-  <meta charset="utf-8">
-    <title>白汀</title>  
-	
-	<style type="text/css">
-		ul{
-			list-style:none;
-			padding:20px;
-			border-bottom:1px dashed #ccc;
-		}
-		li{
-			margin-bottom:10px;
-		}
-	</style>
-  </head>
+---
+layout: default
+title: Your New Jekyll Site
+---
 
-  <body>
-    
-	<h1>白汀</h1>
-	
-	<ul>
-		<li>
-			<a href="http://feliving.github.io/Sublime-Text-3-Documentation/">Sublime Text 3 官方文档(中文)</a>
-		</li>
-		
-		<li>
-			<a href="http://feliving.github.io/developing-backbone-applications/backup">&#60;&#60;Developing Backbone.js Applications&#62;&#62;中文翻译版</a>
-		</li>
-	</ul>
-	
-	
-	<div style="visibility:hidden;">
-    <script type="text/javascript">
-	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7b04940b56d101fffc031b2563f59641' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	</dvi>
-  </body>
-</html>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
