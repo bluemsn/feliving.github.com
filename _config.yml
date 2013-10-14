@@ -9,7 +9,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Jekyll Bootstrap
-tagline: Site Tagline
+#tagline: Site Tagline
 author :
   name : 白汀
   email : feliving@gmail.com
