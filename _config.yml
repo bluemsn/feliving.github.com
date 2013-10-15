@@ -8,8 +8,8 @@ pygments: true
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-#tagline: Site Tagline
+title : 白汀
+tagline: 空里流霜不觉飞，汀上白沙看不见
 author :
   name : 白汀
   email : feliving@gmail.com
@@ -122,8 +122,8 @@ JB :
   # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:
   #
-     pages_list :
-       provider : "custom"
+  #   pages_list :
+  #     provider : "custom"
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
